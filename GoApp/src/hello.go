@@ -1,9 +1,14 @@
 package main
 
+import "fmt"
+
 func main() {
 
-	var a int = 11
-	i := 10
+	rawLiteral := `아리랑\n아리랑\n아라리요`
+	interLiteral := "아리랑아리랑\n아리리요"
 
-	println("Hello world")
+	fmt.Println(rawLiteral)
+	fmt.Println()
+	fmt.Println(interLiteral)
+
 }
